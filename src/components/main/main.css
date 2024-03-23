@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(5, 12, 31);
+    z-index: -1;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title {
+    color: white;
+    font-size: 3rem;;
+}
+
+.des {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.des span {
+    color: cyan;
+
+}
+
+.button {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.second {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300vh;
+    width: 100vw;
+    background-color: rgb(9, 17, 51);
+    /* border-radius: 2% 2% 0 0; */
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.head {
+    flex: 20;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* The Opportunity */
+.head span {
+    padding-top: 4rem;
+    font-size: 2rem;
+    color: cyan;
+}
+
+.head p {
+    font-size: 1.3rem;
+}
+
+.contents {
+    flex: 80;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    flex: 20;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    /* background-color: rgb(5, 12, 31); */
+    width: 90vw;
+    height: 60vh;
+
+
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.left_part {
+    flex: 60;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding-right: 4rem;
+}
+
+.left_part h1 {
+    flex: 100%;
+    font-size: 2rem;
+    color: cyan;
+}
+
+.left_part p {
+    flex: 100%;
+    font-size: 1.3rem;
+}
+
+.right_part {
+    flex: 40;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.right_pic {
+    height: 100%;
+    width: 100%;
+    min-width: 50%;
+    min-height: 50%;
+}

@@ -1,0 +1,73 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    z-index: -3;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+
+.news {
+    padding: 4.8px 0 9.6px 0;
+    text-align: center;
+}
+
+.news-heading {
+    font-size: 44px;
+    line-height: 1.4;
+
+    color: #333;
+}
+
+.news p {
+    font-size: 18px;
+    margin-bottom: 16px;
+    margin-top: 12px;
+    line-height: 1.8;
+}
+
+input[type="email"] {
+    display: inline-block;
+    width: 80%;
+    padding: 18px 36px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 70px;
+    margin-top: 18px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.06);
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 3;
+}
+
+.bt {
+    margin-left: -160px;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 600;
+    padding: 16px 32px;
+    border-radius: 20px;
+
+    /* Only necessary for .btn */
+    border: none;
+    cursor: pointer;
+    background-color: #48b774;
+    color: #fff;
+}

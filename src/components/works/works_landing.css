@@ -1,0 +1,11 @@
+/* .particles {
+    position:fixed;
+    z-index: 0;
+} */
+
+#tsparticles2 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
