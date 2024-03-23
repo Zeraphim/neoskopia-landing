@@ -10,8 +10,8 @@ function Works() {
 
           <div className="work-hero">
 
-            <div className="title">An action-oriented cause.</div>
-            <div className="des"></div>
+            <div className="work_title">An action-oriented cause.</div>
+            <div className="work_des"></div>
 
           </div>
 

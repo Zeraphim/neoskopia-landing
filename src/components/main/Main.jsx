@@ -19,7 +19,6 @@ function Main() {
 
             <div className="title">Neoskopia</div>
             <div className="des">Become an adept in <span>Data Science</span>, one step at a time.</div>
-            <div className="button">Button</div>
 
           </div>
 
@@ -28,7 +27,7 @@ function Main() {
           <div className="second">
 
             <div className="head">
-              <span>THE OPPORTUNITY</span>
+              <h1>THE OPPORTUNITY</h1>
               <p>Become a part of an ever-growing community of innovators.</p>
             </div>
 

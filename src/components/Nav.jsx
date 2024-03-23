@@ -3,10 +3,17 @@ import { Link as ScrollLink } from 'react-scroll';
 
 import logo from "../assets/DeepLearner.png";
 
+import { useState } from 'react';
+
+import { FaBars } from 'react-icons/fa';
+
 
 import "./nav.css"
 
 function Nav() {
+    const [mobileMenu, setMobileMenu] = useState(false);
+
+    
   return (
     <>
 
@@ -44,12 +51,12 @@ function Nav() {
         <nav className="nav">
         <div className="left">
             <ul>
-            <li>
-                <ScrollLink to="top" smooth={true} duration={500} className="link">Main</ScrollLink>
-            </li>
-            <li>
-                <ScrollLink to="about" smooth={true} duration={500} className="link">About</ScrollLink>
-            </li>
+                <li>
+                    <ScrollLink to="top" smooth={true} duration={500} className="link">Main</ScrollLink>
+                </li>
+                <li>
+                    <ScrollLink to="about" smooth={true} duration={500} className="link">About</ScrollLink>
+                </li>
             </ul>
         </div>
 
@@ -59,14 +66,20 @@ function Nav() {
 
         <div className="right">
             <ul>
-            <li>
-                <ScrollLink to="works" smooth={true} duration={500} className="link">Works</ScrollLink>
-            </li>
-            <li>
-                <ScrollLink to="sign-up" smooth={true} duration={500} className="link">Sign-up</ScrollLink>
-            </li>
+                <li className="desktop">
+                    <ScrollLink to="works" smooth={true} duration={500} className="link">Works</ScrollLink>
+                </li>
+                <li className="desktop">
+                    <ScrollLink to="sign-up" smooth={true} duration={500} className="link">Sign-up</ScrollLink>
+                </li>
+                <li className="mobileIcon link">
+                    <FaBars />
+                </li>
             </ul>
         </div>
+
+
+
         </nav>
 
 

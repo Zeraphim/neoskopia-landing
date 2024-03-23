@@ -23,13 +23,15 @@
     font-style: normal;
 }
 
-.title {
+.work_title {
     color: white;
     font-size: 3rem;
-    ;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.des {
+.work_des {
     color: white;
     font-size: 1.5rem;
 }
@@ -58,4 +60,28 @@
     font-weight: 400;
     font-style: normal;
     color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .work_title {
+        font-size: 1.5rem;
+    }
+
+    .work_des {
+        color: white;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .des span {
+        color: cyan;
+
+    }
+
+    .second_content {
+        padding-bottom: 5rem;
+    }
+
 }
