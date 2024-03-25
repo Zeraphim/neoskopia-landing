@@ -3,16 +3,12 @@ import { Link as ScrollLink } from 'react-scroll';
 
 import logo from "../assets/DeepLearner.png";
 
-import { useState } from 'react';
-
 import { FaBars } from 'react-icons/fa';
 
 
 import "./nav.css"
 
 function Nav() {
-    const [mobileMenu, setMobileMenu] = useState(false);
-
     
   return (
     <>
