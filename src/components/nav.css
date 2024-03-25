@@ -74,6 +74,10 @@ li {
     align-items: start;
 }
 
+.right .mobileIcon {
+    display: none;
+}
+
 @media screen and (max-width: 800px) {
     .left li{
         display: none;
